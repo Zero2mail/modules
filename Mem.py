@@ -7,4 +7,4 @@ async def _(event):
   time.sleep(1)
   await event.edit("Мемчики")
   time.sleep(1)
-  event.delete()
+  await event.delete()
