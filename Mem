@@ -1,0 +1,6 @@
+import time
+await event.edit("Скинь")
+time.sleep(2)
+await event.edit("Мемчики")
+time.sleep(2)
+event.delete()
