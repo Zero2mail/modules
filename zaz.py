@@ -9,5 +9,4 @@ async def _(event):
 	time.sleep(1) 
 	await event.edit("fuck")
 	time.sleep(1) 
-	await event.delete() 
-	event.respond("made by @hackernel1337")
+	await event.delete()
