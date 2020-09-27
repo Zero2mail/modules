@@ -8,12 +8,12 @@ class DevToolsMod(loader.Module):
 	"""DevTools"""
 	strings = {'name': 'DevTools'}
 	
-	async def basscmd(self, message):
+	async def gidcmd(self, message):
 		""".gid Id группы
 		"""
 		event.edit(f"ID Чата: {event.chat_id}")
 	
-	async def basscmd(self, message):
+	async def uidcmd(self, message):
 		""".uid Id юзера
 		"""
 		idd = str(event.sender_id)
