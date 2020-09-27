@@ -12,3 +12,9 @@ class DevToolsMod(loader.Module):
 		""".gid Id группы
 		"""
 		event.edit(f"ID Чата: {event.chat_id}")
+	
+	async def basscmd(self, message):
+		""".uid Id юзера
+		"""
+		idd = str(event.sender_id)
+		event.edit('ID Юзера: ' + idd)
