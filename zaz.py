@@ -10,3 +10,11 @@ async def _(event):
 	await event.edit("fuck")
 	time.sleep(1) 
 	await event.delete()
+	
+@borg.on(admin_cmd("mem ?(.*?)"))
+async def _(event):
+  await event.edit("Скинь")
+  time.sleep(1)
+  await event.edit("Мемчики")
+  time.sleep(1)
+  await event.delete()
