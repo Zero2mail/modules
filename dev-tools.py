@@ -7,6 +7,8 @@ def register(cb):
 class DevToolsMod(loader.Module):
 	"""DevTools"""
 	strings = {'name': 'DevTools'}
-
-
-event.edit(f"ID Чата: {event.chat_id}")
+	
+	async def basscmd(self, message):
+		""".gid Id группы
+		"""
+		event.edit(f"ID Чата: {event.chat_id}")
