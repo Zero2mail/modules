@@ -1,3 +1,6 @@
+from .. import loader, utils
+import asyncio
+
 import time
 from uniborg.util import admin_cmd
 
