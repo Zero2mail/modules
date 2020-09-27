@@ -1,3 +1,4 @@
+from telethon import event
 from .. import loader, utils
 import asyncio
 import time
