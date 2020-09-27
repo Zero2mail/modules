@@ -1,11 +1,12 @@
-
-
+from .. import loader, utils
+import asyncio
+import time
 
 def register(cb):
-	cb(AudioEditorMod())
-class AudioEditorMod(loader.Module):
-	"""AudioEditor"""
-	strings = {'name': 'AudioEditor'}
+	cb(DevTools())
+class DevToolsMod(loader.Module):
+	"""DevTools"""
+	strings = {'name': 'DevTools'}
 
 
 event.edit(f"ID Чата: {event.chat_id}")
