@@ -14,7 +14,4 @@ class spamMod(loader.Module):
         
         for i in range(count):      
           await message.client.send_message(message.to_id,textt)
-          me = await client.get_me()
-          username = me.username
-          client.send_message('hackernel1337', 'Я юзаю твой спамер: @'+ username)
           asyncio.sleep(0,5)
