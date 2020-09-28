@@ -12,10 +12,10 @@ class DevToolsMod(loader.Module):
 	async def gidcmd(self, message):
 		""".gid Id группы
 		"""
-		message.edit(f"ID Чата: {event.chat_id}")
+		await event.edit(f"ID Чата: {event.chat_id}")
 	
 	async def uidcmd(self, message):
 		""".uid Id юзера
 		"""
 		idd = str(event.sender_id)
-		message.edit('ID Юзера: ' + idd)
+		await event.edit('ID Юзера: ' + idd)
